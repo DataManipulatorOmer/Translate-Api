@@ -17,18 +17,7 @@ pip install -r requirements.txt
 Usage
 Start the Flask application:
 bash
-Copy code
-python app.py
-Send a POST request to the /translate endpoint with JSON data containing the text to be translated and the target language. For example:
-json
-Copy code
-{
-    "text": "Hello, how are you?",
-    "target_language": "fr"
-}
-Receive the translated text in the response.
-Dependencies
-Flask
-translate
-Contributing
+
+
+## Contributing
 Contributions are welcome! Feel free to open an issue or submit a pull request.
